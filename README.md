@@ -1,7 +1,8 @@
 # Race-Condition-Demo
-
+![enter image description here](https://defuse.ca/images/racecondition.png)
+   
 > ตัวอย่างการโจมตีด้วยช่องโหว่ Race Condition
-
+> 
 **วิธีการติดตั้ง**
 1. ลง [Node.JS](https://nodejs.org/en/download/) ก่อน (สคริปที่ใช้โจมตีเขียนด้วย Node.JS)
 2. เปิด cmd แล้ว cd เข้าไปใน folder สั่ง npm install เพื่อลง Package NodeJS
