@@ -6,7 +6,7 @@ if (cluster.isMaster) {
     cluster.fork();
   }
 } else {
-  request("http://localhost/race/index.php?user_code=BANK000001&amount=100", (error, response, body)=> {
+  request("http://localhost/Race-Condition-Demo/index.php?user_code=BANK000001&amount=100", (error, response, body)=> {
     console.log(`${body}`)
   });
 }
