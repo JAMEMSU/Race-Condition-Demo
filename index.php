@@ -40,6 +40,6 @@ function withdraw($amount, $ucode)
 }
 echo "ยอดเงินของคุณก่อนถอน {$amt} is THB" .  getBalance($user_code) . "\n";
 withdraw($amt, $user_code);
-echo " ยอดเงินของคุณหลังถอน {$amt} is THB" .  getBalance($user_code) . "\n";
+echo "ยอดเงินของคุณหลังถอน {$amt} is THB" .  getBalance($user_code) . "\n";
 mysqli_close($dbcon);
 ?>
